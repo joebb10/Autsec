@@ -6,24 +6,23 @@ Autsec is a static analysis tool for auditing smart contracts, designed to ident
 
 Detects common vulnerabilities in smart contract code:
 
-Unchecked send,
+- Unchecked send
 
-Uninitialized storage pointers,
+- Uninitialized storage pointers
 
-Integer overflow,
+- Integer overflow
 
-Reentrancy,
+- Reentrancy
 
-Controlled delegate call,
+- Controlled delegate call
 
-Oracle,
+- Oracle
 
-Improper fallback,
+- Improper fallback
 
+- Easy integration with development workflows via a RESTful API
 
-Easy integration with development workflows via a RESTful API
-
-Open-source and extensible for community-driven improvements
+- Open-source and extensible for community-driven improvements
 
 # Installation
 
