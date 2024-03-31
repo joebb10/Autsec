@@ -1,3 +1,4 @@
+#Created by Autsec
 import re
 
 from flask import Flask, jsonify, request
@@ -79,7 +80,7 @@ def check_vulnerability(contract_code):
     else:
        fallback = "No fallback function vulnerability found."
     
-
+#Created by Autsec
     
     return unchecked_send, storage, integer_overflow, reentrancy, controlled_delegate_call, oracle, fallback 
 
@@ -101,3 +102,4 @@ def check_vuln():
     return jsonify("You didn't send contract code on body..")
 if __name__ == '__main__':
     app.run(debug=True)
+#Created by Autsec
