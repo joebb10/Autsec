@@ -52,13 +52,15 @@ Replace "your smart contract code here" with the actual code of the smart contra
 The response will include details of any vulnerabilities found:
 
 {
-  "unchecked_send": "No unchecked-send vulnerability found.",
+
+    "unchecked_send": "No unchecked-send vulnerability found.",
   
-  "uninitialized_storage_pointer": "Vulnerability found: uninitialized-storage-pointer...",
+    "uninitialized_storage_pointer": "Vulnerability found: uninitialized-storage-pointer...",
   
-  "integer_overflow": "No integer-overflow vulnerability found.",
+    "integer_overflow": "No integer-overflow vulnerability found.",
   
-  // Additional fields omitted for brevity
+    // Additional fields omitted for brevity
+
 }
 
 # Contributing
