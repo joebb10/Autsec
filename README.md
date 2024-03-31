@@ -67,10 +67,18 @@ The response will include details of any vulnerabilities found:
 
 We welcome contributions to Autsec! If you're interested in helping, you can:
 
-Report issues or suggest new features
-Submit pull requests with bug fixes or enhancements
-Improve documentation or write tutorials
-Please see CONTRIBUTING.md for more information on how to contribute.
+- Report issues or suggest new features
+- Submit pull requests with bug fixes or enhancements
+- Improve documentation or write tutorials
+
+
+# Donate
+
+If you find Autsec useful and would like to support its development, consider making a donation to the following wallet address:
+  
+0x86FFC6C3782D2b551c5dF462eD5B47d56c539F19
+
+Your contributions help maintain and improve Autsec for the community. Thank you for your support!
 
 # License
 
