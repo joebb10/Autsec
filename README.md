@@ -1,20 +1,31 @@
-Autsec: Smart Contract Vulnerability Checker
+# Autsec: Smart Contract Vulnerability Checker
 
 Autsec is a static analysis tool for auditing smart contracts, designed to identify common vulnerabilities within contract code. Utilizing regular expressions, Autsec scans contracts for patterns indicative of potential security issues such as unchecked sends, reentrancy, integer overflow, and more. Developed with a focus on Ethereum smart contracts, Autsec aims to improve security practices in the development of decentralized applications.
 
-Features
+# Features
 
 Detects common vulnerabilities in smart contract code:
-Unchecked send
-Uninitialized storage pointers
-Integer overflow
-Reentrancy attacks
-Controlled delegate call
-Oracle reliance
-Improper fallback function usage
+
+Unchecked send,
+
+Uninitialized storage pointers,
+
+Integer overflow,
+
+Reentrancy,
+
+Controlled delegate call,
+
+Oracle,
+
+Improper fallback,
+
+
 Easy integration with development workflows via a RESTful API
+
 Open-source and extensible for community-driven improvements
-Installation
+
+# Installation
 
 Autsec is built on Flask and requires Python to run. You can install Autsec and its dependencies using the following commands:
 
@@ -25,18 +36,20 @@ cd autsec-
 
 pip install -r requirements.txt
 
-Usage
+# Usage
 
 To start the Autsec server, run:
 
 python autsec.py
+
 This command starts the Flask server on localhost with the default port 8080. To check a smart contract for vulnerabilities, send a POST request to the /check_vulnerability endpoint with the contract code as JSON:
 
 
 curl -X POST http://localhost:8080/check_vulnerability -H "Content-Type: application/json" -d '{"contract_code":"your smart contract code here"}'
+
 Replace "your smart contract code here" with the actual code of the smart contract you want to audit.
 
-Example Response
+# Example Response
 The response will include details of any vulnerabilities found:
 
 {
@@ -49,7 +62,7 @@ The response will include details of any vulnerabilities found:
   // Additional fields omitted for brevity
 }
 
-Contributing
+# Contributing
 
 We welcome contributions to Autsec! If you're interested in helping, you can:
 
@@ -58,7 +71,7 @@ Submit pull requests with bug fixes or enhancements
 Improve documentation or write tutorials
 Please see CONTRIBUTING.md for more information on how to contribute.
 
-License
+# License
 
 Autsec is licensed under MIT License. Feel free to use, modify, and distribute it as per the license.
 
